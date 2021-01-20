@@ -1,0 +1,735 @@
+{
+  "grid" : {
+    "size" : 9,
+    "cells" : [ {
+      "row" : 0,
+      "col" : 0,
+      "cell" : {
+        "value" : 6,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 0,
+      "col" : 1,
+      "cell" : {
+        "value" : 1,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 0,
+      "col" : 2,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 0,
+      "col" : 3,
+      "cell" : {
+        "value" : 3,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 0,
+      "col" : 4,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 0,
+      "col" : 5,
+      "cell" : {
+        "value" : 7,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 0,
+      "col" : 6,
+      "cell" : {
+        "value" : 9,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 0,
+      "col" : 7,
+      "cell" : {
+        "value" : 5,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 0,
+      "col" : 8,
+      "cell" : {
+        "value" : 4,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 0,
+      "cell" : {
+        "value" : 4,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 1,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 2,
+      "cell" : {
+        "value" : 7,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 3,
+      "cell" : {
+        "value" : 5,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 4,
+      "cell" : {
+        "value" : 6,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 5,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 6,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 7,
+      "cell" : {
+        "value" : 5,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 1,
+      "col" : 8,
+      "cell" : {
+        "value" : 3,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 0,
+      "cell" : {
+        "value" : 2,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 1,
+      "cell" : {
+        "value" : 9,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 2,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 3,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 4,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 5,
+      "cell" : {
+        "value" : 8,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 6,
+      "cell" : {
+        "value" : 1,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 7,
+      "cell" : {
+        "value" : 5,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 2,
+      "col" : 8,
+      "cell" : {
+        "value" : 6,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 0,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 1,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 2,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 3,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 4,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 5,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 6,
+      "cell" : {
+        "value" : 8,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 7,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 3,
+      "col" : 8,
+      "cell" : {
+        "value" : 7,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 0,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 1,
+      "cell" : {
+        "value" : 2,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 2,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 3,
+      "cell" : {
+        "value" : 8,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 4,
+      "cell" : {
+        "value" : 7,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 5,
+      "cell" : {
+        "value" : 1,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 6,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 7,
+      "cell" : {
+        "value" : 6,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 4,
+      "col" : 8,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 0,
+      "cell" : {
+        "value" : 8,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 1,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 2,
+      "cell" : {
+        "value" : 5,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 3,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 4,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 5,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 6,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 7,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 5,
+      "col" : 8,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 0,
+      "cell" : {
+        "value" : 5,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 1,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 2,
+      "cell" : {
+        "value" : 1,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 3,
+      "cell" : {
+        "value" : 7,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 4,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 5,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 6,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 7,
+      "cell" : {
+        "value" : 9,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 6,
+      "col" : 8,
+      "cell" : {
+        "value" : 2,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 0,
+      "cell" : {
+        "value" : 7,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 1,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 2,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : true,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 3,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 4,
+      "cell" : {
+        "value" : 1,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 5,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 6,
+      "cell" : {
+        "value" : 6,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 7,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 7,
+      "col" : 8,
+      "cell" : {
+        "value" : 5,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 0,
+      "cell" : {
+        "value" : 9,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 1,
+      "cell" : {
+        "value" : 3,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 2,
+      "cell" : {
+        "value" : 6,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 3,
+      "cell" : {
+        "value" : 2,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 4,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 5,
+      "cell" : {
+        "value" : 4,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 6,
+      "cell" : {
+        "value" : 0,
+        "given" : false,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 7,
+      "cell" : {
+        "value" : 1,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    }, {
+      "row" : 8,
+      "col" : 8,
+      "cell" : {
+        "value" : 8,
+        "given" : true,
+        "highlighted" : false,
+        "showCandidates" : false
+      }
+    } ]
+  }
+}

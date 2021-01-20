@@ -1,0 +1,37 @@
+@import play.api.i18n.Messages
+@import play.api.mvc.RequestHeader
+@import org.webjars.play.WebJarsUtil
+@import controllers.AssetsFinder
+
+@(controller:de.htwg.se.reversi.controller.controllerComponent.ControllerInterface, message:String, user: models.User)(implicit request: RequestHeader, messages: Messages, webJarsUtil: WebJarsUtil, assets: AssetsFinder)
+)
+
+@size= @{ controller.gridSize }
+
+@cellType(row:Int, col:Int) = @{
+    controller.cell(row, col).value match {
+        case 1 => "white"
+        case 2 => "black"
+        case 3 => "candidate"
+        case _ => "notSet"
+    }
+}
+
+@toScalar(house:Int, cell:Int)=@{ house*size + cell}
+
+@main("HTWG Reversi", Some(user)) {
+    <script src="@routes.Assets.versioned("javascripts/vue.js")" ></script>
+    <script src="@routes.Assets.versioned("javascripts/reversiVue.js")" ></script>
+
+    <link rel="stylesheet" href='@routes.Assets.versioned("stylesheets/reversi.css")' />
+
+    <div id="reversi-game" class="pagecontainer">
+
+        <reversi-field></reversi-field>
+
+        <div class="alert alert-primary" role="alert">
+        @message
+        </div>
+    </div>
+
+}
