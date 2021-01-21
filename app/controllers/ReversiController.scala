@@ -33,10 +33,6 @@ class ReversiController @Inject() (
   def message = GameStatus.message(gameController.gameStatus)
   def reversiAsText =  gameController.gridToString + message
 
-  /*def about= Action {
-    Ok(views.html.index())
-  }*/
-
   def reversi = silhouette.SecuredAction.async { implicit request: SecuredRequest[DefaultEnv, AnyContent] =>
     Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
   }
@@ -56,11 +52,6 @@ class ReversiController @Inject() (
     Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
   }
 
-  def resize(size: Int) = silhouette.SecuredAction.async { implicit request: SecuredRequest[DefaultEnv, AnyContent] =>
-    gameController.resize(size)
-    Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
-  }
-
   def set(row: Int, col: Int) = silhouette.SecuredAction.async { implicit request: SecuredRequest[DefaultEnv, AnyContent] =>
     gameController.set(row, col, gameController.getActivePlayer())
     Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
@@ -69,11 +60,6 @@ class ReversiController @Inject() (
   def gridToJson = Action {
     Ok(toJson)
   }
-
-  /*def quit = Action {
-    System.exit(0)
-    Ok(views.html.index())
-  }*/
 
   def toJson = {
     val size = gameController.gridSize;

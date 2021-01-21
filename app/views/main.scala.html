@@ -33,7 +33,7 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
             <![endif]-->
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="@assets.path("javascripts/sudoku.js")" ></script>
+        <script src="@assets.path("javascripts/reversi.js")" ></script>
     </head>
     <body>
         <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -54,16 +54,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/new">New</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Size
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/resize/8">Large (8*8)</a>
-                                <a class="dropdown-item" href="/resize/4">Small (4*4)</a>
-                                <a class="dropdown-item" href="resize/1">Tiny (1*1)</a>
-                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/undo">Undo</a>
