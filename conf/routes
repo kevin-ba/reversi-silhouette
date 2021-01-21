@@ -4,17 +4,19 @@
 
 # Sudoku routes
 
-GET      /sudoku                     controllers.SudokuController.sudoku
+GET      /sudoku                    controllers.ReversiController.reversi
 GET     /new                        controllers.ReversiController.newGrid
-GET     /resize/:size               controllers.SudokuController.resize(size:Int)
-GET     /set/:row/:col/:value       controllers.SudokuController.set(row:Int,col:Int, value:Int)
-GET     /showCandidates/:row/:col   controllers.SudokuController.showCandidates(row:Int, col:Int)
+GET     /resize/:size               controllers.ReversiController.resize(size:Int)
+GET     /set/:row/:col     controllers.ReversiController.set(row:Int,col:Int)
+
+GET     /undo                       controllers.ReversiController.undo
+GET     /redo                       controllers.ReversiController.redo
 
 #GET     /about                      controllers.ApplicationController.index
 
-GET     /json                       controllers.SudokuController.gridToJson
+GET     /json                       controllers.ReversiController.gridToJson
 
-GET     /websocket                  controllers.SudokuController.socket
+GET     /websocket                  controllers.ReversiController.socket
 
 # Authentication and Authorization with Silhouette
 GET         /                                controllers.ApplicationController.index

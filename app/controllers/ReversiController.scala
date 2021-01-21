@@ -46,31 +46,31 @@ class ReversiController @Inject() (
     Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
   }
 
+  def undo = silhouette.SecuredAction.async { implicit request: SecuredRequest[DefaultEnv, AnyContent] =>
+    gameController.undo
+    Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
+  }
+
+  def redo = silhouette.SecuredAction.async { implicit request: SecuredRequest[DefaultEnv, AnyContent] =>
+    gameController.redo
+    Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
+  }
+
   def resize(size: Int) = silhouette.SecuredAction.async { implicit request: SecuredRequest[DefaultEnv, AnyContent] =>
     gameController.resize(size)
     Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
   }
 
-  def set(row: Int, col: Int, value: Int) = silhouette.SecuredAction.async { implicit request: SecuredRequest[DefaultEnv, AnyContent] =>
+  def set(row: Int, col: Int) = silhouette.SecuredAction.async { implicit request: SecuredRequest[DefaultEnv, AnyContent] =>
     gameController.set(row, col, gameController.getActivePlayer())
     Future.successful(Ok(views.html.reversi(gameController, message, request.identity)))
-  }
-
- /* def undo() = Action {
-    gameController.undo
-    Ok(views.html.reversi(gameController, message))
-  }
-
-  def redo() = Action {
-    gameController.redo
-    Ok(views.html.reversi(gameController, message))
   }
 
   def gridToJson = Action {
     Ok(toJson)
   }
 
-  def quit = Action {
+  /*def quit = Action {
     System.exit(0)
     Ok(views.html.index())
   }*/
